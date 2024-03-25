@@ -2113,6 +2113,633 @@ client.once('ready', async () => {
 
                             ],
                         },
+
+                        {
+                            // kaiser
+                            name: 'calc-kaiser',
+                            description: 'Calculate the total fragments for a Kaiser based on core levels',
+                            options: [
+                                {
+                                    type: 4,
+                                    name: 'nova-triumphant',
+                                    description: 'The level of the Nova Triumphant skill core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexa-gigaswave',
+                                    description: 'The level of the Hexa Gigas Wave mastery core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'nova-guardians',
+                                    description: 'The level of the Nova Guardians enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'bladefall',
+                                    description: 'The level of the Bladefall enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'draco-surge',
+                                    description: 'The level of the Draco Surge enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'dragonflare',
+                                    description: 'The level of the Dragonflare Fusion enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexastat',
+                                    description: 'Amount of fragments farmed for hexastat',
+                                    required: false,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'unused-frags',
+                                    description: 'Unused fragments in inventory',
+                                    required: false,
+                                },
+
+                            ],
+                        },
+
+                        {
+                            // cadena
+                            name: 'calc-cadena',
+                            description: 'Calculate the total fragments for a Cadena based on core levels',
+                            options: [
+                                {
+                                    type: 4,
+                                    name: 'grand-arsenal',
+                                    description: 'The level of the Chain Arts: Grand Arsenal skill core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexa-thrash',
+                                    description: 'The level of the Hexa Chain Arts: Thrash mastery core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'nova-guardians',
+                                    description: 'The level of the Nova Guardians enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'void-strike',
+                                    description: 'The level of the Chain Arts: Void Strike enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'apocalypse-cannon',
+                                    description: 'The level of the Apocalypse Cannon enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'maelstrom',
+                                    description: 'The level of the Chain Arts: Maelstrom Fusion enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexastat',
+                                    description: 'Amount of fragments farmed for hexastat',
+                                    required: false,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'unused-frags',
+                                    description: 'Unused fragments in inventory',
+                                    required: false,
+                                },
+
+                            ],
+                        },
+
+                        {
+                            // kain
+                            name: 'calc-kain',
+                            description: 'Calculate the total fragments for a Kain based on core levels',
+                            options: [
+                                {
+                                    type: 4,
+                                    name: 'total-annihilation',
+                                    description: 'The level of the Total Annihilation skill core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexa-fallingdust',
+                                    description: 'The level of the Hexa Falling Dust mastery core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'dragon-burst',
+                                    description: 'The level of the Dragon Burst enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'fatal-blitz',
+                                    description: 'The level of the Fatal Blitz enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'thanatos-descent',
+                                    description: 'The level of the Thanatos Descent enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'goa',
+                                    description: 'The level of the Grip of Agony enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexastat',
+                                    description: 'Amount of fragments farmed for hexastat',
+                                    required: false,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'unused-frags',
+                                    description: 'Unused fragments in inventory',
+                                    required: false,
+                                },
+
+                            ],
+                        },
+
+                        {
+                            // kanna
+                            name: 'calc-kanna',
+                            description: 'Calculate the total fragments for a Kanna based on core levels',
+                            options: [
+                                {
+                                    type: 4,
+                                    name: 'hakumenkonmou-juubi',
+                                    description: 'The level of the Hakemenkonmou Juubi skill core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexa-shikigami',
+                                    description: 'The level of the Hexa Shikigami Haunting mastery core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'yuki',
+                                    description: 'The level of the Summon Yuki-musume enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'domain',
+                                    description: 'The level of the Spirits Domain enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'lsc',
+                                    description: 'The level of the Liberated Spirit Circle enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'ghost-yaksha',
+                                    description: 'The level of the Ghost Yaksha: Great Oni Lords Legion enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexastat',
+                                    description: 'Amount of fragments farmed for hexastat',
+                                    required: false,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'unused-frags',
+                                    description: 'Unused fragments in inventory',
+                                    required: false,
+                                },
+
+                            ],
+                        },
+
+                        {
+                            // hayato
+                            name: 'calc-hayato',
+                            description: 'Calculate the total fragments for a Hayato based on core levels',
+                            options: [
+                                {
+                                    type: 4,
+                                    name: 'quick-draw',
+                                    description: 'The level of the Jin Quick Draw skill core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexa-raisanrenzan',
+                                    description: 'The level of the Hexa Rai Sanrenzan mastery core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'battoujutsu-zankou',
+                                    description: 'The level of the Battoujutsu Zankou enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'phantom-blade',
+                                    description: 'The level of the Iaijutsu Phantom Blade enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'buw',
+                                    description: 'The level of the Battoujutsu Ultimate Will enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'instant-slice',
+                                    description: 'The level of the Instance Slice enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexastat',
+                                    description: 'Amount of fragments farmed for hexastat',
+                                    required: false,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'unused-frags',
+                                    description: 'Unused fragments in inventory',
+                                    required: false,
+                                },
+
+                            ],
+                        },
+
+                        {
+                            // ark
+                            name: 'calc-ark',
+                            description: 'Calculate the total fragments for a Ark based on core levels',
+                            options: [
+                                {
+                                    type: 4,
+                                    name: 'primordial-abyss',
+                                    description: 'The level of the Primordial Abyss skill core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexa-chargedrive',
+                                    description: 'The level of the Hexa Charge Drive mastery core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'abyssal-recall',
+                                    description: 'The level of the Abyssal Recall enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'infinity-spell',
+                                    description: 'The level of the Infinity Spell enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'devious-nightmare',
+                                    description: 'The level of the Devious Nightmare enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'devious-dream',
+                                    description: 'The level of the Devious Dream enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexastat',
+                                    description: 'Amount of fragments farmed for hexastat',
+                                    required: false,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'unused-frags',
+                                    description: 'Unused fragments in inventory',
+                                    required: false,
+                                },
+
+                            ],
+                        },
+
+                        {
+                            // illium
+                            name: 'calc-illium',
+                            description: 'Calculate the total fragments for a Illium based on core levels',
+                            options: [
+                                {
+                                    type: 4,
+                                    name: 'mytocrystal-expanse',
+                                    description: 'The level of the Mytocrystal Expanse skill core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexa-javelin',
+                                    description: 'The level of the Hexa Javelin mastery core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'crystal-ignition',
+                                    description: 'The level of the Crystal Ignition enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'templar-knight',
+                                    description: 'The level of the Templar Knight enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'crystalline-spirit',
+                                    description: 'The level of the Crystalline Spirit enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'crystal-gate',
+                                    description: 'The level of the Crystal Gate enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexastat',
+                                    description: 'Amount of fragments farmed for hexastat',
+                                    required: false,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'unused-frags',
+                                    description: 'Unused fragments in inventory',
+                                    required: false,
+                                },
+
+                            ],
+                        },
+
+                        {
+                            // khali
+                            name: 'calc-khali',
+                            description: 'Calculate the total fragments for a Khali based on core levels',
+                            options: [
+                                {
+                                    type: 4,
+                                    name: 'sandstorm',
+                                    description: 'The level of the Sandstorm skill core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexa-flurry',
+                                    description: 'The level of the Hexa Flurry mastery core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'pandemonium',
+                                    description: 'The level of the Pandemonium enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'void-burst',
+                                    description: 'The level of the Void Burst enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'astra',
+                                    description: 'The level of the Arts: Astra enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'resonate',
+                                    description: 'The level of the Resonate: Ultimatum enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexastat',
+                                    description: 'Amount of fragments farmed for hexastat',
+                                    required: false,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'unused-frags',
+                                    description: 'Unused fragments in inventory',
+                                    required: false,
+                                },
+
+                            ],
+                        },
+
+                        {
+                            // hoyoung
+                            name: 'calc-hy',
+                            description: 'Calculate the total fragments for a Hoyoung based on core levels',
+                            options: [
+                                {
+                                    type: 4,
+                                    name: 'apothesis',
+                                    description: 'The level of the Apothesis skill core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexa-universalharmony',
+                                    description: 'The level of the Hexa Universal Harmony mastery core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'clone-rampage',
+                                    description: 'The level of the Clone Rampage enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'tiger',
+                                    description: 'The level of the Tiger of Songyu enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'wog',
+                                    description: 'The level of the Wrath of Gods enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'tpa',
+                                    description: 'The level of the Three Paths Apparition enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexastat',
+                                    description: 'Amount of fragments farmed for hexastat',
+                                    required: false,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'unused-frags',
+                                    description: 'Unused fragments in inventory',
+                                    required: false,
+                                },
+
+                            ],
+                        },
+
+                        {
+                            // lara
+                            name: 'calc-lara',
+                            description: 'Calculate the total fragments for a Lara based on core levels',
+                            options: [
+                                {
+                                    type: 4,
+                                    name: 'universe-bloom',
+                                    description: 'The level of the Universe in Bloom skill core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexa-sprinke',
+                                    description: 'The level of the Hexa Essence Sprinkle mastery core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'big-stretch',
+                                    description: 'The level of the Big Stretch enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'lands-connection',
+                                    description: 'The level of the Lands Connection enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'surging-essence',
+                                    description: 'The level of the Surging Essence enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'wmr',
+                                    description: 'The level of the Winding Mountain Ridge enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexastat',
+                                    description: 'Amount of fragments farmed for hexastat',
+                                    required: false,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'unused-frags',
+                                    description: 'Unused fragments in inventory',
+                                    required: false,
+                                },
+
+                            ],
+                        },
+
+                        {
+                            // zero
+                            name: 'calc-zero',
+                            description: 'Calculate the total fragments for a Lara based on core levels',
+                            options: [
+                                {
+                                    type: 4,
+                                    name: 'end-time',
+                                    description: 'The level of the End Time skill core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexa-timepiece',
+                                    description: 'The level of the Hexa Time Piece mastery core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'chrono-break',
+                                    description: 'The level of the Chrono Break enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'tbot',
+                                    description: 'The level of the Twin Blades of Time enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'shadow-flash',
+                                    description: 'The level of the Shadow Flash enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'ego-weapon',
+                                    description: 'The level of the Ego Weapon enhancement core',
+                                    required: true,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'hexastat',
+                                    description: 'Amount of fragments farmed for hexastat',
+                                    required: false,
+                                },
+                                {
+                                    type: 4,
+                                    name: 'unused-frags',
+                                    description: 'Unused fragments in inventory',
+                                    required: false,
+                                },
+
+                            ],
+                        },
                     ],
                 }
             );
@@ -4122,7 +4749,7 @@ client.on('interactionCreate', async interaction => {
         const result = calculateFragments(grandFinaleLevel, hexaTrinityLevel, enhancementLevels, hexastat, unusedFrags);
 
         const embed = new EmbedBuilder()
-            .setColor('#FFCCDF') // An appropriate color for Angelic Buster theme
+            .setColor('#E28AB5') // An appropriate color for Angelic Buster theme
             .setTitle('Angelic Buster Fragments Calculation')
             .setDescription('Here are the results of your Angelic Buster calculation:')
             .setThumbnail('https://i.imgur.com/qjz7Syl.png') // Use an appropriate thumbnail for Angelic Buster
@@ -4155,6 +4782,603 @@ client.on('interactionCreate', async interaction => {
             .setFooter({ text: 'Calculation done by Frag Calc' });
 
         // Send the crafted embed as a reply to the interaction
+        await interaction.editReply({ embeds: [embed] });
+    }
+
+    if (commandName === 'calc-kaiser') {
+        await interaction.deferReply();
+
+        // Extracting core levels from the interaction options
+        const novaTriumphantLevel = options.getInteger('nova-triumphant');
+        const hexaGigasWaveLevel = options.getInteger('hexa-gigaswave');
+        const novaGuardiansLevel = options.getInteger('nova-guardians');
+        const bladefallLevel = options.getInteger('bladefall');
+        const dracoSurgeLevel = options.getInteger('draco-surge');
+        const dragonflareLevel = options.getInteger('dragonflare');
+        const hexastat = options.getInteger('hexastat') || 0;
+        const unusedFrags = options.getInteger('unused-frags') || 0;
+
+        // Assuming the calculateFragments function exists to process the input and calculate the results
+        const enhancementLevels = [novaGuardiansLevel, bladefallLevel, dracoSurgeLevel, dragonflareLevel];
+        const result = calculateFragments(novaTriumphantLevel, hexaGigasWaveLevel, enhancementLevels, hexastat, unusedFrags);
+
+        const embed = new EmbedBuilder()
+            .setColor('#7C1D36') // An appropriate color for Kaiser theme
+            .setTitle('Kaiser Fragments Calculation')
+            .setDescription('Here are the results of your Kaiser calculation:')
+            .setThumbnail('https://i.imgur.com/OxQYbh6.png') // Use an appropriate thumbnail for Kaiser
+            .addFields(
+                {
+                    name: 'Summary',
+                    value: `**Total Fragments**: ${result.totalFragments}\n` +
+                        `**Overall Progress**: ${result.overallProgress.toFixed(2)}%\n` +
+                        `**Unused Frags**: ${unusedFrags}\n` +
+                        `**Hexastat Frags**: ${hexastat}`,
+                    inline: false
+                },
+                {
+                    name: '\u200B',
+                    value: '_ _',
+                    inline: false
+                },
+                {
+                    name: 'Details', value:
+                        `**Nova Triumphant (Skill Core)**\nLvl: ${novaTriumphantLevel} | Frags: ${result.skillFragments} | Progress: ${result.skillProgress.toFixed(2)}%\n\n` +
+                        `**Hexa Gigas Wave (Mastery Core)**\nLvl: ${hexaGigasWaveLevel} | Frags: ${result.masteryFragments} | Progress: ${result.masteryProgress.toFixed(2)}%\n\n` +
+                        `**Nova Guardians (Enhancement Core)**\nLvl: ${novaGuardiansLevel} | Frags: ${result.enhancementFragmentsArray[0]} | Progress: ${result.enhancementProgressArray[0].toFixed(2)}%\n\n` +
+                        `**Bladefall (Enhancement Core)**\nLvl: ${bladefallLevel} | Frags: ${result.enhancementFragmentsArray[1]} | Progress: ${result.enhancementProgressArray[1].toFixed(2)}%\n\n` +
+                        `**Draco Surge (Enhancement Core)**\nLvl: ${dracoSurgeLevel} | Frags: ${result.enhancementFragmentsArray[2]} | Progress: ${result.enhancementProgressArray[2].toFixed(2)}%\n\n` +
+                        `**Dragonflare Fusion (Enhancement Core)**\nLvl: ${dragonflareLevel} | Frags: ${result.enhancementFragmentsArray[3]} | Progress: ${result.enhancementProgressArray[3].toFixed(2)}%`,
+                    inline: false
+                }
+            )
+            .setTimestamp()
+            .setFooter({ text: 'Calculation done by Frag Calc' });
+
+        // Send the crafted embed as a reply to the interaction
+        await interaction.editReply({ embeds: [embed] });
+    }
+
+
+
+
+    if (commandName === 'calc-cadena') {
+        await interaction.deferReply();
+
+        // Extracting core levels from the interaction options
+        const grandArsenalLevel = options.getInteger('grand-arsenal');
+        const hexaThrashLevel = options.getInteger('hexa-thrash');
+        const novaGuardiansLevel = options.getInteger('nova-guardians');
+        const voidStrikeLevel = options.getInteger('void-strike');
+        const apocalypseCannonLevel = options.getInteger('apocalypse-cannon');
+        const maelstromLevel = options.getInteger('maelstrom'); // Chain Arts: Maelstrom Fusion
+        const hexastat = options.getInteger('hexastat') || 0;
+        const unusedFrags = options.getInteger('unused-frags') || 0;
+
+        // Assuming the calculateFragments function exists to process the input and calculate results
+        const enhancementLevels = [novaGuardiansLevel, voidStrikeLevel, apocalypseCannonLevel, maelstromLevel];
+        const result = calculateFragments(grandArsenalLevel, hexaThrashLevel, enhancementLevels, hexastat, unusedFrags);
+
+        const embed = new EmbedBuilder()
+            .setColor('#C01A72') // An appropriate color for Cadena theme
+            .setTitle('Cadena Fragments Calculation')
+            .setDescription('Here are the results of your Cadena calculation:')
+            .setThumbnail('https://i.imgur.com/XT16ppS.png') // Use an appropriate thumbnail for Cadena
+            .addFields(
+                {
+                    name: 'Summary',
+                    value: `**Total Fragments**: ${result.totalFragments}\n` +
+                        `**Overall Progress**: ${result.overallProgress.toFixed(2)}%\n` +
+                        `**Unused Frags**: ${unusedFrags}\n` +
+                        `**Hexastat Frags**: ${hexastat}`,
+                    inline: false
+                },
+                {
+                    name: '\u200B',
+                    value: '_ _',
+                    inline: false
+                },
+                {
+                    name: 'Details', value:
+                        `**Chain Arts: Grand Arsenal (Skill Core)**\nLvl: ${grandArsenalLevel} | Frags: ${result.skillFragments} | Progress: ${result.skillProgress.toFixed(2)}%\n\n` +
+                        `**Hexa Chain Arts: Thrash (Mastery Core)**\nLvl: ${hexaThrashLevel} | Frags: ${result.masteryFragments} | Progress: ${result.masteryProgress.toFixed(2)}%\n\n` +
+                        `**Nova Guardians (Enhancement Core)**\nLvl: ${novaGuardiansLevel} | Frags: ${result.enhancementFragmentsArray[0]} | Progress: ${result.enhancementProgressArray[0].toFixed(2)}%\n\n` +
+                        `**Chain Arts: Void Strike (Enhancement Core)**\nLvl: ${voidStrikeLevel} | Frags: ${result.enhancementFragmentsArray[1]} | Progress: ${result.enhancementProgressArray[1].toFixed(2)}%\n\n` +
+                        `**Apocalypse Cannon (Enhancement Core)**\nLvl: ${apocalypseCannonLevel} | Frags: ${result.enhancementFragmentsArray[2]} | Progress: ${result.enhancementProgressArray[2].toFixed(2)}%\n\n` +
+                        `**Chain Arts: Maelstrom Fusion (Enhancement Core)**\nLvl: ${maelstromLevel} | Frags: ${result.enhancementFragmentsArray[3]} | Progress: ${result.enhancementProgressArray[3].toFixed(2)}%`,
+                    inline: false
+                }
+            )
+            .setTimestamp()
+            .setFooter({ text: 'Calculation done by Frag Calc' });
+
+        // Send the crafted embed as a reply to the interaction
+        await interaction.editReply({ embeds: [embed] });
+    }
+
+    if (commandName === 'calc-kain') {
+        await interaction.deferReply();
+
+        // Extracting core levels from the interaction options
+        const totalAnnihilationLevel = options.getInteger('total-annihilation');
+        const hexaFallingDustLevel = options.getInteger('hexa-fallingdust');
+        const dragonBurstLevel = options.getInteger('dragon-burst');
+        const fatalBlitzLevel = options.getInteger('fatal-blitz');
+        const thanatosDescentLevel = options.getInteger('thanatos-descent');
+        const goaLevel = options.getInteger('goa'); // Grip of Agony
+        const hexastat = options.getInteger('hexastat') || 0;
+        const unusedFrags = options.getInteger('unused-frags') || 0;
+
+        // Assuming the calculateFragments function exists to process the input and calculate results
+        const enhancementLevels = [dragonBurstLevel, fatalBlitzLevel, thanatosDescentLevel, goaLevel];
+        const result = calculateFragments(totalAnnihilationLevel, hexaFallingDustLevel, enhancementLevels, hexastat, unusedFrags);
+
+        const embed = new EmbedBuilder()
+            .setColor('#8E1513') // An appropriate color for Kain theme
+            .setTitle('Kain Fragments Calculation')
+            .setDescription('Here are the results of your Kain calculation:')
+            .setThumbnail('https://i.imgur.com/kht7qxE.png') // Use an appropriate thumbnail for Kain
+            .addFields(
+                {
+                    name: 'Summary',
+                    value: `**Total Fragments**: ${result.totalFragments}\n` +
+                        `**Overall Progress**: ${result.overallProgress.toFixed(2)}%\n` +
+                        `**Unused Frags**: ${unusedFrags}\n` +
+                        `**Hexastat Frags**: ${hexastat}`,
+                    inline: false
+                },
+                {
+                    name: '\u200B',
+                    value: '_ _',
+                    inline: false
+                },
+                {
+                    name: 'Details', value:
+                        `**Total Annihilation (Skill Core)**\nLvl: ${totalAnnihilationLevel} | Frags: ${result.skillFragments} | Progress: ${result.skillProgress.toFixed(2)}%\n\n` +
+                        `**Hexa Falling Dust (Mastery Core)**\nLvl: ${hexaFallingDustLevel} | Frags: ${result.masteryFragments} | Progress: ${result.masteryProgress.toFixed(2)}%\n\n` +
+                        `**Dragon Burst (Enhancement Core)**\nLvl: ${dragonBurstLevel} | Frags: ${result.enhancementFragmentsArray[0]} | Progress: ${result.enhancementProgressArray[0].toFixed(2)}%\n\n` +
+                        `**Fatal Blitz (Enhancement Core)**\nLvl: ${fatalBlitzLevel} | Frags: ${result.enhancementFragmentsArray[1]} | Progress: ${result.enhancementProgressArray[1].toFixed(2)}%\n\n` +
+                        `**Thanatos Descent (Enhancement Core)**\nLvl: ${thanatosDescentLevel} | Frags: ${result.enhancementFragmentsArray[2]} | Progress: ${result.enhancementProgressArray[2].toFixed(2)}%\n\n` +
+                        `**Grip of Agony (Enhancement Core)**\nLvl: ${goaLevel} | Frags: ${result.enhancementFragmentsArray[3]} | Progress: ${result.enhancementProgressArray[3].toFixed(2)}%`,
+                    inline: false
+                }
+            )
+            .setTimestamp()
+            .setFooter({ text: 'Calculation done by Frag Calc' });
+
+        // Send the crafted embed as a reply to the interaction
+        await interaction.editReply({ embeds: [embed] });
+    }
+
+    if (commandName === 'calc-kanna') {
+        await interaction.deferReply();
+
+        // Extracting core levels from the interaction options
+        const hakumenkonmouJuubiLevel = options.getInteger('hakumenkonmou-juubi');
+        const hexaShikigamiLevel = options.getInteger('hexa-shikigami');
+        const yukiLevel = options.getInteger('yuki');
+        const domainLevel = options.getInteger('domain');
+        const lscLevel = options.getInteger('lsc'); // Liberated Spirit Circle
+        const ghostYakshaLevel = options.getInteger('ghost-yaksha');
+        const hexastat = options.getInteger('hexastat') || 0;
+        const unusedFrags = options.getInteger('unused-frags') || 0;
+
+        // Assuming the calculateFragments function exists to process the input and calculate the results
+        const enhancementLevels = [yukiLevel, domainLevel, lscLevel, ghostYakshaLevel];
+        const result = calculateFragments(hakumenkonmouJuubiLevel, hexaShikigamiLevel, enhancementLevels, hexastat, unusedFrags);
+
+        const embed = new EmbedBuilder()
+            .setColor('#7864BF') // An appropriate color for Kanna theme
+            .setTitle('Kanna Fragments Calculation')
+            .setDescription('Here are the results of your Kanna calculation:')
+            .setThumbnail('https://i.imgur.com/EeVsVmM.png') // Use an appropriate thumbnail for Kanna
+            .addFields(
+                {
+                    name: 'Summary',
+                    value: `**Total Fragments**: ${result.totalFragments}\n` +
+                        `**Overall Progress**: ${result.overallProgress.toFixed(2)}%\n` +
+                        `**Unused Frags**: ${unusedFrags}\n` +
+                        `**Hexastat Frags**: ${hexastat}`,
+                    inline: false
+                },
+                {
+                    name: '\u200B',
+                    value: '_ _',
+                    inline: false
+                },
+                {
+                    name: 'Details', value:
+                        `**Hakemenkonmou Juubi (Skill Core)**\nLvl: ${hakumenkonmouJuubiLevel} | Frags: ${result.skillFragments} | Progress: ${result.skillProgress.toFixed(2)}%\n\n` +
+                        `**Hexa Shikigami Haunting (Mastery Core)**\nLvl: ${hexaShikigamiLevel} | Frags: ${result.masteryFragments} | Progress: ${result.masteryProgress.toFixed(2)}%\n\n` +
+                        `**Summon Yuki-musume (Enhancement Core)**\nLvl: ${yukiLevel} | Frags: ${result.enhancementFragmentsArray[0]} | Progress: ${result.enhancementProgressArray[0].toFixed(2)}%\n\n` +
+                        `**Spirits Domain (Enhancement Core)**\nLvl: ${domainLevel} | Frags: ${result.enhancementFragmentsArray[1]} | Progress: ${result.enhancementProgressArray[1].toFixed(2)}%\n\n` +
+                        `**Liberated Spirit Circle (Enhancement Core)**\nLvl: ${lscLevel} | Frags: ${result.enhancementFragmentsArray[2]} | Progress: ${result.enhancementProgressArray[2].toFixed(2)}%\n\n` +
+                        `**Ghost Yaksha: Great Oni Lords Legion (Enhancement Core)**\nLvl: ${ghostYakshaLevel} | Frags: ${result.enhancementFragmentsArray[3]} | Progress: ${result.enhancementProgressArray[3].toFixed(2)}%`,
+                    inline: false
+                }
+            )
+            .setTimestamp()
+            .setFooter({ text: 'Calculation done by Frag Calc' });
+
+        // Send the crafted embed as a reply to the interaction
+        await interaction.editReply({ embeds: [embed] });
+    }
+
+    if (commandName === 'calc-hayato') {
+        await interaction.deferReply();
+
+        // Extracting core levels from the interaction options
+        const quickDrawLevel = options.getInteger('quick-draw');
+        const hexaRaisanrenzanLevel = options.getInteger('hexa-raisanrenzan');
+        const battoujutsuZankouLevel = options.getInteger('battoujutsu-zankou');
+        const phantomBladeLevel = options.getInteger('phantom-blade');
+        const buwLevel = options.getInteger('buw'); // Battoujutsu Ultimate Will
+        const instantSliceLevel = options.getInteger('instant-slice');
+        const hexastat = options.getInteger('hexastat') || 0;
+        const unusedFrags = options.getInteger('unused-frags') || 0;
+
+        // Assuming the calculateFragments function exists to process the input and calculate results
+        const enhancementLevels = [battoujutsuZankouLevel, phantomBladeLevel, buwLevel, instantSliceLevel];
+        const result = calculateFragments(quickDrawLevel, hexaRaisanrenzanLevel, enhancementLevels, hexastat, unusedFrags);
+
+        const embed = new EmbedBuilder()
+            .setColor('#884862') // An appropriate color for Hayato theme
+            .setTitle('Hayato Fragments Calculation')
+            .setDescription('Here are the results of your Hayato calculation:')
+            .setThumbnail('https://i.imgur.com/HuyyDyf.png') // Use an appropriate thumbnail for Hayato
+            .addFields(
+                {
+                    name: 'Summary',
+                    value: `**Total Fragments**: ${result.totalFragments}\n` +
+                        `**Overall Progress**: ${result.overallProgress.toFixed(2)}%\n` +
+                        `**Unused Frags**: ${unusedFrags}\n` +
+                        `**Hexastat Frags**: ${hexastat}`,
+                    inline: false
+                },
+                {
+                    name: '\u200B',
+                    value: '_ _',
+                    inline: false
+                },
+                {
+                    name: 'Details', value:
+                        `**Jin Quick Draw (Skill Core)**\nLvl: ${quickDrawLevel} | Frags: ${result.skillFragments} | Progress: ${result.skillProgress.toFixed(2)}%\n\n` +
+                        `**Hexa Rai Sanrenzan (Mastery Core)**\nLvl: ${hexaRaisanrenzanLevel} | Frags: ${result.masteryFragments} | Progress: ${result.masteryProgress.toFixed(2)}%\n\n` +
+                        `**Battoujutsu Zankou (Enhancement Core)**\nLvl: ${battoujutsuZankouLevel} | Frags: ${result.enhancementFragmentsArray[0]} | Progress: ${result.enhancementProgressArray[0].toFixed(2)}%\n\n` +
+                        `**Iaijutsu Phantom Blade (Enhancement Core)**\nLvl: ${phantomBladeLevel} | Frags: ${result.enhancementFragmentsArray[1]} | Progress: ${result.enhancementProgressArray[1].toFixed(2)}%\n\n` +
+                        `**Battoujutsu Ultimate Will (Enhancement Core)**\nLvl: ${buwLevel} | Frags: ${result.enhancementFragmentsArray[2]} | Progress: ${result.enhancementProgressArray[2].toFixed(2)}%\n\n` +
+                        `**Instance Slice (Enhancement Core)**\nLvl: ${instantSliceLevel} | Frags: ${result.enhancementFragmentsArray[3]} | Progress: ${result.enhancementProgressArray[3].toFixed(2)}%`,
+                    inline: false
+                }
+            )
+            .setTimestamp()
+            .setFooter({ text: 'Calculation done by Frag Calc' });
+
+        // Send the crafted embed as a reply to the interaction
+        await interaction.editReply({ embeds: [embed] });
+    }
+
+    if (commandName === 'calc-ark') {
+        await interaction.deferReply();
+
+        // Extracting core levels from the interaction options
+        const primordialAbyssLevel = options.getInteger('primordial-abyss');
+        const hexaChargeDriveLevel = options.getInteger('hexa-chargedrive');
+        const abyssalRecallLevel = options.getInteger('abyssal-recall');
+        const infinitySpellLevel = options.getInteger('infinity-spell');
+        const deviousNightmareLevel = options.getInteger('devious-nightmare');
+        const deviousDreamLevel = options.getInteger('devious-dream');
+        const hexastat = options.getInteger('hexastat') || 0;
+        const unusedFrags = options.getInteger('unused-frags') || 0;
+
+        // Assuming the calculateFragments function exists to process the input and calculate results
+        const enhancementLevels = [abyssalRecallLevel, infinitySpellLevel, deviousNightmareLevel, deviousDreamLevel];
+        const result = calculateFragments(primordialAbyssLevel, hexaChargeDriveLevel, enhancementLevels, hexastat, unusedFrags);
+
+        const embed = new EmbedBuilder()
+            .setColor('#B43523') // An appropriate color for Ark theme
+            .setTitle('Ark Fragments Calculation')
+            .setDescription('Here are the results of your Ark calculation:')
+            .setThumbnail('https://i.imgur.com/eaUmo6h.png') // Use an appropriate thumbnail for Ark
+            .addFields(
+                {
+                    name: 'Summary',
+                    value: `**Total Fragments**: ${result.totalFragments}\n` +
+                        `**Overall Progress**: ${result.overallProgress.toFixed(2)}%\n` +
+                        `**Unused Frags**: ${unusedFrags}\n` +
+                        `**Hexastat Frags**: ${hexastat}`,
+                    inline: false
+                },
+                {
+                    name: '\u200B',
+                    value: '_ _',
+                    inline: false
+                },
+                {
+                    name: 'Details', value:
+                        `**Primordial Abyss (Skill Core)**\nLvl: ${primordialAbyssLevel} | Frags: ${result.skillFragments} | Progress: ${result.skillProgress.toFixed(2)}%\n\n` +
+                        `**Hexa Charge Drive (Mastery Core)**\nLvl: ${hexaChargeDriveLevel} | Frags: ${result.masteryFragments} | Progress: ${result.masteryProgress.toFixed(2)}%\n\n` +
+                        `**Abyssal Recall (Enhancement Core)**\nLvl: ${abyssalRecallLevel} | Frags: ${result.enhancementFragmentsArray[0]} | Progress: ${result.enhancementProgressArray[0].toFixed(2)}%\n\n` +
+                        `**Infinity Spell (Enhancement Core)**\nLvl: ${infinitySpellLevel} | Frags: ${result.enhancementFragmentsArray[1]} | Progress: ${result.enhancementProgressArray[1].toFixed(2)}%\n\n` +
+                        `**Devious Nightmare (Enhancement Core)**\nLvl: ${deviousNightmareLevel} | Frags: ${result.enhancementFragmentsArray[2]} | Progress: ${result.enhancementProgressArray[2].toFixed(2)}%\n\n` +
+                        `**Devious Dream (Enhancement Core)**\nLvl: ${deviousDreamLevel} | Frags: ${result.enhancementFragmentsArray[3]} | Progress: ${result.enhancementProgressArray[3].toFixed(2)}%`,
+                    inline: false
+                }
+            )
+            .setTimestamp()
+            .setFooter({ text: 'Calculation done by Frag Calc' });
+
+        // Send the crafted embed as a reply to the interaction
+        await interaction.editReply({ embeds: [embed] });
+    }
+
+    if (commandName === 'calc-illium') {
+        await interaction.deferReply();
+
+        // Extracting core levels from the interaction options
+        const mytocrystalExpanseLevel = options.getInteger('mytocrystal-expanse');
+        const hexaJavelinLevel = options.getInteger('hexa-javelin');
+        const crystalIgnitionLevel = options.getInteger('crystal-ignition');
+        const templarKnightLevel = options.getInteger('templar-knight');
+        const crystallineSpiritLevel = options.getInteger('crystalline-spirit');
+        const crystalGateLevel = options.getInteger('crystal-gate');
+        const hexastat = options.getInteger('hexastat') || 0;
+        const unusedFrags = options.getInteger('unused-frags') || 0;
+
+        // Assuming a function exists to process the input and calculate the results
+        const enhancementLevels = [crystalIgnitionLevel, templarKnightLevel, crystallineSpiritLevel, crystalGateLevel];
+        const result = calculateFragments(mytocrystalExpanseLevel, hexaJavelinLevel, enhancementLevels, hexastat, unusedFrags);
+
+        const embed = new EmbedBuilder()
+            .setColor('#E2FFFF') // Choose a color that represents Illium
+            .setTitle('Illium Fragments Calculation')
+            .setDescription('Here are the results of your Illium calculation:')
+            .setThumbnail('https://i.imgur.com/TuP1sML.png') // Placeholder for an appropriate thumbnail
+            .addFields(
+                {
+                    name: 'Summary',
+                    value: `**Total Fragments**: ${result.totalFragments}\n` +
+                        `**Overall Progress**: ${result.overallProgress.toFixed(2)}%\n` +
+                        `**Unused Frags**: ${unusedFrags}\n` +
+                        `**Hexastat Frags**: ${hexastat}`,
+                    inline: false
+                },
+                {
+                    name: '\u200B',
+                    value: '_ _',
+                    inline: false
+                },
+                {
+                    name: 'Details', value:
+                        `**Mytocrystal Expanse (Skill Core)**\nLvl: ${mytocrystalExpanseLevel} | Frags: ${result.skillFragments} | Progress: ${result.skillProgress.toFixed(2)}%\n\n` +
+                        `**Hexa Javelin (Mastery Core)**\nLvl: ${hexaJavelinLevel} | Frags: ${result.masteryFragments} | Progress: ${result.masteryProgress.toFixed(2)}%\n\n` +
+                        `**Crystal Ignition (Enhancement Core)**\nLvl: ${crystalIgnitionLevel} | Frags: ${result.enhancementFragmentsArray[0]} | Progress: ${result.enhancementProgressArray[0].toFixed(2)}%\n\n` +
+                        `**Templar Knight (Enhancement Core)**\nLvl: ${templarKnightLevel} | Frags: ${result.enhancementFragmentsArray[1]} | Progress: ${result.enhancementProgressArray[1].toFixed(2)}%\n\n` +
+                        `**Crystalline Spirit (Enhancement Core)**\nLvl: ${crystallineSpiritLevel} | Frags: ${result.enhancementFragmentsArray[2]} | Progress: ${result.enhancementProgressArray[2].toFixed(2)}%\n\n` +
+                        `**Crystal Gate (Enhancement Core)**\nLvl: ${crystalGateLevel} | Frags: ${result.enhancementFragmentsArray[3]} | Progress: ${result.enhancementProgressArray[3].toFixed(2)}%`,
+                    inline: false
+                }
+            )
+            .setTimestamp()
+            .setFooter({ text: 'Calculation done by Frag Calc' });
+
+        // Respond with the crafted embed as a reply to the interaction
+        await interaction.editReply({ embeds: [embed] });
+    }
+
+    if (commandName === 'calc-khali') {
+        await interaction.deferReply();
+
+        // Extracting core levels from the interaction options
+        const sandstormLevel = options.getInteger('sandstorm');
+        const hexaFlurryLevel = options.getInteger('hexa-flurry');
+        const pandemoniumLevel = options.getInteger('pandemonium');
+        const voidBurstLevel = options.getInteger('void-burst');
+        const astraLevel = options.getInteger('astra');
+        const resonateLevel = options.getInteger('resonate');
+        const hexastat = options.getInteger('hexastat') || 0;
+        const unusedFrags = options.getInteger('unused-frags') || 0;
+
+        // Assuming a calculateFragments function exists for processing input and calculating results
+        const enhancementLevels = [pandemoniumLevel, voidBurstLevel, astraLevel, resonateLevel];
+        const result = calculateFragments(sandstormLevel, hexaFlurryLevel, enhancementLevels, hexastat, unusedFrags);
+
+        const embed = new EmbedBuilder()
+            .setColor('#E9B260') // Choose a fitting color theme
+            .setTitle('Khali Fragments Calculation')
+            .setDescription('Here are the results of your Khali calculation:')
+            .setThumbnail('https://i.imgur.com/S3jVypN.png') // Placeholder for an appropriate thumbnail
+            .addFields(
+                {
+                    name: 'Summary',
+                    value: `**Total Fragments**: ${result.totalFragments}\n` +
+                        `**Overall Progress**: ${result.overallProgress.toFixed(2)}%\n` +
+                        `**Unused Frags**: ${unusedFrags}\n` +
+                        `**Hexastat Frags**: ${hexastat}`,
+                    inline: false
+                },
+                {
+                    name: '\u200B',
+                    value: '_ _',
+                    inline: false
+                },
+                {
+                    name: 'Details', value:
+                        `**Sandstorm (Skill Core)**\nLvl: ${sandstormLevel} | Frags: ${result.skillFragments} | Progress: ${result.skillProgress.toFixed(2)}%\n\n` +
+                        `**Hexa Flurry (Mastery Core)**\nLvl: ${hexaFlurryLevel} | Frags: ${result.masteryFragments} | Progress: ${result.masteryProgress.toFixed(2)}%\n\n` +
+                        `**Pandemonium (Enhancement Core)**\nLvl: ${pandemoniumLevel} | Frags: ${result.enhancementFragmentsArray[0]} | Progress: ${result.enhancementProgressArray[0].toFixed(2)}%\n\n` +
+                        `**Void Burst (Enhancement Core)**\nLvl: ${voidBurstLevel} | Frags: ${result.enhancementFragmentsArray[1]} | Progress: ${result.enhancementProgressArray[1].toFixed(2)}%\n\n` +
+                        `**Arts: Astra (Enhancement Core)**\nLvl: ${astraLevel} | Frags: ${result.enhancementFragmentsArray[2]} | Progress: ${result.enhancementProgressArray[2].toFixed(2)}%\n\n` +
+                        `**Resonate: Ultimatum (Enhancement Core)**\nLvl: ${resonateLevel} | Frags: ${result.enhancementFragmentsArray[3]} | Progress: ${result.enhancementProgressArray[3].toFixed(2)}%`,
+                    inline: false
+                }
+            )
+            .setTimestamp()
+            .setFooter({ text: 'Calculation done by Frag Calc' });
+
+        // Respond with the crafted embed as a reply to the interaction
+        await interaction.editReply({ embeds: [embed] });
+    }
+
+    if (commandName === 'calc-hy') {
+        await interaction.deferReply();
+
+        // Extracting core levels from the interaction options
+        const apothesisLevel = options.getInteger('apothesis');
+        const hexaUniversalHarmonyLevel = options.getInteger('hexa-universalharmony');
+        const cloneRampageLevel = options.getInteger('clone-rampage');
+        const tigerLevel = options.getInteger('tiger');
+        const wogLevel = options.getInteger('wog');
+        const tpaLevel = options.getInteger('tpa');
+        const hexastat = options.getInteger('hexastat') || 0;
+        const unusedFrags = options.getInteger('unused-frags') || 0;
+
+        // Assuming a calculateFragments function exists for processing input and calculating results
+        const enhancementLevels = [cloneRampageLevel, tigerLevel, wogLevel, tpaLevel];
+        const result = calculateFragments(apothesisLevel, hexaUniversalHarmonyLevel, enhancementLevels, hexastat, unusedFrags);
+
+        const embed = new EmbedBuilder()
+            .setColor('#76FFEE') // Choose a fitting color theme
+            .setTitle('Hoyoung Fragments Calculation')
+            .setDescription('Here are the results of your Hoyoung calculation:')
+            .setThumbnail('https://i.imgur.com/ZN0x53M.png') // Placeholder for an appropriate thumbnail
+            .addFields(
+                {
+                    name: 'Summary',
+                    value: `**Total Fragments**: ${result.totalFragments}\n` +
+                        `**Overall Progress**: ${result.overallProgress.toFixed(2)}%\n` +
+                        `**Unused Frags**: ${unusedFrags}\n` +
+                        `**Hexastat Frags**: ${hexastat}`,
+                    inline: false
+                },
+                {
+                    name: '\u200B',
+                    value: '_ _',
+                    inline: false
+                },
+                {
+                    name: 'Details', value:
+                        `**Apothesis (Skill Core)**\nLvl: ${apothesisLevel} | Frags: ${result.skillFragments} | Progress: ${result.skillProgress.toFixed(2)}%\n\n` +
+                        `**Hexa Universal Harmony (Mastery Core)**\nLvl: ${hexaUniversalHarmonyLevel} | Frags: ${result.masteryFragments} | Progress: ${result.masteryProgress.toFixed(2)}%\n\n` +
+                        `**Clone Rampage (Enhancement Core)**\nLvl: ${cloneRampageLevel} | Frags: ${result.enhancementFragmentsArray[0]} | Progress: ${result.enhancementProgressArray[0].toFixed(2)}%\n\n` +
+                        `**Tiger of Songyu (Enhancement Core)**\nLvl: ${tigerLevel} | Frags: ${result.enhancementFragmentsArray[1]} | Progress: ${result.enhancementProgressArray[1].toFixed(2)}%\n\n` +
+                        `**Wrath of Gods (Enhancement Core)**\nLvl: ${wogLevel} | Frags: ${result.enhancementFragmentsArray[2]} | Progress: ${result.enhancementProgressArray[2].toFixed(2)}%\n\n` +
+                        `**Three Paths Apparition (Enhancement Core)**\nLvl: ${tpaLevel} | Frags: ${result.enhancementFragmentsArray[3]} | Progress: ${result.enhancementProgressArray[3].toFixed(2)}%`,
+                    inline: false
+                }
+            )
+            .setTimestamp()
+            .setFooter({ text: 'Calculation done by Frag Calc' });
+
+        // Respond with the crafted embed as a reply to the interaction
+        await interaction.editReply({ embeds: [embed] });
+    }
+
+    if (commandName === 'calc-lara') {
+        await interaction.deferReply();
+
+        // Extracting core levels from the interaction options
+        const universeBloomLevel = options.getInteger('universe-bloom');
+        const hexaSprinkleLevel = options.getInteger('hexa-sprinke');
+        const bigStretchLevel = options.getInteger('big-stretch');
+        const landsConnectionLevel = options.getInteger('lands-connection');
+        const surgingEssenceLevel = options.getInteger('surging-essence');
+        const wmrLevel = options.getInteger('wmr');
+        const hexastat = options.getInteger('hexastat') || 0;
+        const unusedFrags = options.getInteger('unused-frags') || 0;
+
+        // Assuming a calculateFragments function exists for processing input and calculating results
+        const enhancementLevels = [bigStretchLevel, landsConnectionLevel, surgingEssenceLevel, wmrLevel];
+        const result = calculateFragments(universeBloomLevel, hexaSprinkleLevel, enhancementLevels, hexastat, unusedFrags);
+
+        const embed = new EmbedBuilder()
+            .setColor('#FDDAC6') // Choose a fitting color theme
+            .setTitle('Lara Fragments Calculation')
+            .setDescription('Here are the results of your Lara calculation:')
+            .setThumbnail('https://i.imgur.com/yLuQQzk.png') // Placeholder for an appropriate thumbnail
+            .addFields(
+                {
+                    name: 'Summary',
+                    value: `**Total Fragments**: ${result.totalFragments}\n` +
+                        `**Overall Progress**: ${result.overallProgress.toFixed(2)}%\n` +
+                        `**Unused Frags**: ${unusedFrags}\n` +
+                        `**Hexastat Frags**: ${hexastat}`,
+                    inline: false
+                },
+                {
+                    name: '\u200B',
+                    value: '_ _',
+                    inline: false
+                },
+                {
+                    name: 'Details', value:
+                        `**Universe in Bloom (Skill Core)**\nLvl: ${universeBloomLevel} | Frags: ${result.skillFragments} | Progress: ${result.skillProgress.toFixed(2)}%\n\n` +
+                        `**Hexa Essence Sprinkle (Mastery Core)**\nLvl: ${hexaSprinkleLevel} | Frags: ${result.masteryFragments} | Progress: ${result.masteryProgress.toFixed(2)}%\n\n` +
+                        `**Big Stretch (Enhancement Core)**\nLvl: ${bigStretchLevel} | Frags: ${result.enhancementFragmentsArray[0]} | Progress: ${result.enhancementProgressArray[0].toFixed(2)}%\n\n` +
+                        `**Lands Connection (Enhancement Core)**\nLvl: ${landsConnectionLevel} | Frags: ${result.enhancementFragmentsArray[1]} | Progress: ${result.enhancementProgressArray[1].toFixed(2)}%\n\n` +
+                        `**Surging Essence (Enhancement Core)**\nLvl: ${surgingEssenceLevel} | Frags: ${result.enhancementFragmentsArray[2]} | Progress: ${result.enhancementProgressArray[2].toFixed(2)}%\n\n` +
+                        `**Winding Mountain Ridge (Enhancement Core)**\nLvl: ${wmrLevel} | Frags: ${result.enhancementFragmentsArray[3]} | Progress: ${result.enhancementProgressArray[3].toFixed(2)}%`,
+                    inline: false
+                }
+            )
+            .setTimestamp()
+            .setFooter({ text: 'Calculation done by Frag Calc' });
+
+        // Respond with the crafted embed as a reply to the interaction
+        await interaction.editReply({ embeds: [embed] });
+    }
+
+    if (commandName === 'calc-zero') {
+        await interaction.deferReply();
+
+        // Extracting core levels from the interaction options
+        const endTimeLevel = options.getInteger('end-time');
+        const hexaTimepieceLevel = options.getInteger('hexa-timepiece');
+        const chronoBreakLevel = options.getInteger('chrono-break');
+        const tbotLevel = options.getInteger('tbot');
+        const shadowFlashLevel = options.getInteger('shadow-flash');
+        const egoWeaponLevel = options.getInteger('ego-weapon');
+        const hexastat = options.getInteger('hexastat') || 0;
+        const unusedFrags = options.getInteger('unused-frags') || 0;
+
+        // Assuming a calculateFragments function exists for processing input and calculating results
+        const enhancementLevels = [chronoBreakLevel, tbotLevel, shadowFlashLevel, egoWeaponLevel];
+        const result = calculateFragments(endTimeLevel, hexaTimepieceLevel, enhancementLevels, hexastat, unusedFrags);
+
+        const embed = new EmbedBuilder()
+            .setColor('#FFDE8F') // Choose a fitting color theme for Zero
+            .setTitle('Zero Fragments Calculation')
+            .setDescription('Here are the results of your Zero calculation:')
+            .setThumbnail('https://i.imgur.com/WvbP3K6.png') // Placeholder for an appropriate thumbnail
+            .addFields(
+                {
+                    name: 'Summary',
+                    value: `**Total Fragments**: ${result.totalFragments}\n` +
+                        `**Overall Progress**: ${result.overallProgress.toFixed(2)}%\n` +
+                        `**Unused Frags**: ${unusedFrags}\n` +
+                        `**Hexastat Frags**: ${hexastat}`,
+                    inline: false
+                },
+                {
+                    name: '\u200B',
+                    value: '_ _',
+                    inline: false
+                },
+                {
+                    name: 'Details', value:
+                        `**End Time (Skill Core)**\nLvl: ${endTimeLevel} | Frags: ${result.skillFragments} | Progress: ${result.skillProgress.toFixed(2)}%\n\n` +
+                        `**Hexa Time Piece (Mastery Core)**\nLvl: ${hexaTimepieceLevel} | Frags: ${result.masteryFragments} | Progress: ${result.masteryProgress.toFixed(2)}%\n\n` +
+                        `**Chrono Break (Enhancement Core)**\nLvl: ${chronoBreakLevel} | Frags: ${result.enhancementFragmentsArray[0]} | Progress: ${result.enhancementProgressArray[0].toFixed(2)}%\n\n` +
+                        `**Twin Blades of Time (Enhancement Core)**\nLvl: ${tbotLevel} | Frags: ${result.enhancementFragmentsArray[1]} | Progress: ${result.enhancementProgressArray[1].toFixed(2)}%\n\n` +
+                        `**Shadow Flash (Enhancement Core)**\nLvl: ${shadowFlashLevel} | Frags: ${result.enhancementFragmentsArray[2]} | Progress: ${result.enhancementProgressArray[2].toFixed(2)}%\n\n` +
+                        `**Ego Weapon (Enhancement Core)**\nLvl: ${egoWeaponLevel} | Frags: ${result.enhancementFragmentsArray[3]} | Progress: ${result.enhancementProgressArray[3].toFixed(2)}%`,
+                    inline: false
+                }
+            )
+            .setTimestamp()
+            .setFooter({ text: 'Calculation done by Frag Calc' });
+
+        // Respond with the crafted embed as a reply to the interaction
         await interaction.editReply({ embeds: [embed] });
     }
 });
